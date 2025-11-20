@@ -11,7 +11,11 @@ import './index.css'
 function App() {
   return (
     <div className="min-h-screen bg-black text-white font-[Inter]">
-      {/* SEO Meta via document head handled in index.html; content copy in Bahasa */}
+      {/* Background accent in emerald for the whole site */}
+      <div className="pointer-events-none fixed inset-0 -z-10">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.08),transparent_60%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(5,150,105,0.06),transparent_60%)]" />
+      </div>
       <Hero />
       <Philosophy />
       <Facilities />

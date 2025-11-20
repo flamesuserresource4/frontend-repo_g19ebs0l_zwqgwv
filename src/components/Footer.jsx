@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="relative bg-black py-16 border-t border-white/10">
+    <footer className="relative bg-black py-16 border-top border-white/10">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
@@ -8,7 +8,7 @@ function Footer() {
             <div className="mt-2 text-white/60">Kramat Jati, Jakarta Timur</div>
           </div>
           <div className="flex items-center gap-6 text-white/70">
-            <a href="https://wa.me/6281234567890" target="_blank" rel="noreferrer" className="hover:text-white">WhatsApp</a>
+            <a href="https://wa.me/6285776906952" target="_blank" rel="noreferrer" className="hover:text-white">WhatsApp</a>
             <a href="#" className="hover:text-white">Instagram</a>
             <a href="#map" className="hover:text-white">Map</a>
           </div>
@@ -26,10 +26,10 @@ function Footer() {
 
       {/* Floating WhatsApp */}
       <a
-        href="https://wa.me/6281234567890"
+        href="https://wa.me/6285776906952"
         target="_blank"
         rel="noreferrer"
-        className="fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-full bg-green-500 text-white px-5 py-3 shadow-lg hover:shadow-xl transition-shadow"
+        className="fixed bottom-6 right-6 inline-flex items-center gap-2 rounded-full bg-emerald-500 text-white px-5 py-3 shadow-lg hover:shadow-xl transition-shadow"
       >
         <span className="h-2 w-2 rounded-full bg-white" /> Concierge VIP
       </a>
